@@ -1,7 +1,8 @@
-<h1 align="center">🧬🚀 Arduino com C++ — Projeto Experimental</h1>
+<h1 align="center">🧬🚀 Arduino com Rust — Projeto Experimental</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++💻-Low%20Level-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Rust🦀-Low%20Level-orange?style=flat-square" />
+  
   <img src="https://img.shields.io/badge/Arduino⚡-Hardware-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Autodidata📚-Em%20progresso-green?style=flat-square" />
 </p>
@@ -9,6 +10,7 @@
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="100" alt="Arduino Logo"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" height="100" alt="Rust Logo"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" height="100" alt="C++ Logo"/>
 </p>
 
@@ -16,7 +18,7 @@
 
 ## 🌟 Sobre o projeto
 
-Este repositório é uma coleção dos meus experimentos usando **C++** com **Arduino** — Ainda não sei se quero trabalhar com embarcados, mas eu quero:
+Este repositório é uma coleção dos meus experimentos usando **Rust** com **Arduino** — Ainda não sei se quero trabalhar com embarcados, mas eu quero:
 
 > **Aprender algo difícil, diferente e me tornar uma desenvolvedora melhor.**  
 > E isso aqui é diferente de tudo que já fiz. 💡
@@ -25,7 +27,7 @@ Este repositório é uma coleção dos meus experimentos usando **C++** com **Ar
 
 ## 🎯 Objetivos
 
-- ✅ Praticar **C++** em contexto de sistemas embarcados
+- ✅ Praticar **Rust** em contexto de sistemas embarcados
 - ✅ Aprender a lidar com **hardware real** e entender como tudo funciona "de verdade"
 - ✅ Enriquecer meu GitHub com um projeto técnico, ousado e fora da curva
 - ✅ Traduzir conceitos da eletrônica para lógica de programação e vice-versa
@@ -36,24 +38,27 @@ Este repositório é uma coleção dos meus experimentos usando **C++** com **Ar
 
 | Tecnologia | Descrição |
 |------------|-----------|
-| 💻 **C++** | Linguagem poderosa e usada amplamente em sistemas embarcados |
+| 🦀 **Rust** | Linguagem moderna, segura e poderosa para sistemas de baixo nível |
 | ⚡ **Arduino UNO/Nano** | Microcontroladores usados nos testes |
-| 🧠 **IDE Arduino / VS Code** | Ambientes de desenvolvimento |
-| 🔧 **Plataforma Arduino CLI** | Upload e gerenciamento de placas |
+| 🧠 **VS Code / Rust Analyzer** | Ambientes de desenvolvimento |
+| 🔧 **AVR-Rust / Cargo / Probe-rs** | Ferramentas de compilação e upload |
 | 🔍 **Datasheets & referências técnicas** | Estudo direto nos registradores e esquemáticos |
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="100" alt="Arduino Logo"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" height="100" alt="C++ Logo"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" height="100" alt="Rust Logo"/>
 </p>
 
-
 ## 📘 Documentação e tutoriais
+- [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 
-- [C++ Tutorial - cplusplus.com](https://cplusplus.com/doc/tutorial/)
-- [Curso de C++ do CFB Cursos (YouTube)](https://www.youtube.com/watch?v=nUQKr-ey86Y&list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40)
-- [Curso de Arduino do CFB Cursos (YouTube)](https://www.youtube.com/watch?v=Vuof27YELEI&list=PLx4x_zx8csUgWBTvA-fluHV970SzDJRBw)
+- [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/title-page.html/)
+- [Rust para sistemas embarcados (YouTube)](https://www.youtube.com/playlist?list=PLXc4s3cD2ZlvTGx9qYDAwhzJkPIFxk3Xf)
+- [Rust Embedded Working Group](https://github.com/rust-embedded)
+- [CBF CURSOS ARDUINO](https://www.youtube.com/watch?v=Vuof27YELEI&list=PLx4x_zx8csUgWBTvA-fluHV970SzDJRBw)
+- [CBF CURSOS C++](https://www.youtube.com/watch?v=nUQKr-ey86Y&list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40)
+- [Documentação c++](https://cplusplus.com/doc/tutorial//)
 
 ---
 
@@ -66,34 +71,34 @@ Este repositório é uma coleção dos meus experimentos usando **C++** com **Ar
 
 ## 📗 E-books
 
-- [Introdução ao C++ Moderno (PDF)](https://isocpp.org/files/papers/CppCoreGuidelines.pdf)
-- [Arduino Programming Notebook](https://playground.arduino.cc/Main/ArduinoNotebook/)
+- [The Embedded Rust Book (PDF)](https://docs.rust-embedded.org/book/)
+- [Rust Programming Notebook (recurso complementar)](https://github.com/rust-lang/book)
 
 ---
 
 ## 📚 O que estou estudando
 
-- Fundamentos de **C++ para embarcados**
-- Projetos e tutoriais em C/C++
+- Fundamentos de **Rust embarcado**
+- Projetos e crates como `embedded-hal`, `avr-device` e `panic-halt`
 - Lógica digital aplicada em código
-- Datasheets dos chips AVR
+- Datasheets dos chips AVR e ARM
 
 ---
 
 ## ✅ Conquistas até agora
 
-- 💡 LED piscando com C++
-- 🔌 Comunicação serial via UART
-- ⚙️ Manipulação de registradores diretamente no microcontrolador
-- 🔧 Setup funcional com o Arduino e C++ puro
+- 💡 LED piscando com Rust
+- 🔌 Comunicação serial com `avr-hal`
+- ⚙️ Manipulação de registradores com segurança
+- 🔧 Setup funcional com Rust e Arduino
 
 ---
 
 ## 🔮 Próximos passos
 
-- 📈 PWM e Timers
+- 📈 PWM e Timers com `embedded-hal`
 - 📡 Comunicação via I2C/SPI
-- 🧠 Controle de sensores simples
+- 🧠 Controle de sensores simples com Rust
 - 🧪 Testes com atuadores e pequenos módulos
 
 ---
