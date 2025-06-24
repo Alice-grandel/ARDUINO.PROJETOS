@@ -53,8 +53,8 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 ## 📘 Documentação e tutoriais
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 
-- [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/title-page.html/)
-- [Rust para sistemas embarcados (YouTube)](https://www.youtube.com/playlist?list=PLXc4s3cD2ZlvTGx9qYDAwhzJkPIFxk3Xf)
+- [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/ch04-01-what-is-ownership.html/)
+- [Rust para sistemas embarcados (YouTube)](https://www.youtube.com/watch?v=QH10Be79zPA&t=15s)
 - [Rust Embedded Working Group](https://github.com/rust-embedded)
 - [CBF CURSOS ARDUINO](https://www.youtube.com/watch?v=Vuof27YELEI&list=PLx4x_zx8csUgWBTvA-fluHV970SzDJRBw)
 - [CBF CURSOS C++](https://www.youtube.com/watch?v=nUQKr-ey86Y&list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40)
