@@ -58,6 +58,7 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 - [CBF CURSOS ARDUINO](https://www.youtube.com/watch?v=Vuof27YELEI&list=PLx4x_zx8csUgWBTvA-fluHV970SzDJRBw)
 - [CBF CURSOS C++](https://www.youtube.com/watch?v=nUQKr-ey86Y&list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40)
 - [Documentação c++](https://cplusplus.com/doc/tutorial//)
+- [Rust Programming Notebook (recurso complementar)](https://github.com/rust-lang/book)
 
 ---
 
@@ -65,13 +66,6 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 
 - [Kit Arduino UNO (Amazon)](https://www.amazon.com.br/dp/B0DB8XP6RS?ref=ppx_yo2ov_dt_b_fed_asin_title)
 - [Placa ARM STM32 "Blue Pill" (Amazon)](https://www.amazon.com.br/dp/B0C3SMXP8H?ref=ppx_yo2ov_dt_b_fed_asin_title)
-
----
-
-## 📗 E-books
-
-- [The Embedded Rust Book (PDF)](https://docs.rust-embedded.org/book/)
-- [Rust Programming Notebook (recurso complementar)](https://github.com/rust-lang/book)
 
 ---
 
@@ -101,7 +95,41 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 - 🧪 Testes com atuadores e pequenos módulos
 
 ---
+# Projeto STM32F103C6T6 em Rust
 
+Este projeto é um exemplo básico de como fazer o LED da placa piscar.
+
+## CÓDIGO PRINCIPAL PISCAR LED:
+
+```rust
+#![no_std]
+#![no_main]
+
+use cortex_m_rt::entry;
+use panic_halt as _;
+use stm32f1xx_hal::{pac, prelude::*};
+
+#[entry]
+fn main() -> ! {
+    let dp = pac::Peripherals::take().unwrap();
+
+    let mut flash = dp.FLASH.constrain();
+    let mut rcc = dp.RCC.constrain();
+
+    let clocks = rcc.cfgr.freeze(&mut flash.acr);
+
+    let mut gpioc = dp.GPIOC.split(&mut rcc.apb2);
+    let mut led = gpioc.pc13.into_push_pull_output(&mut gpioc.crh);
+
+    loop {
+        led.set_low().unwrap();  // Acende o LED (ativo baixo)
+        cortex_m::asm::delay(clocks.sysclk().0 / 2);
+        led.set_high().unwrap(); // Apaga o LED
+        cortex_m::asm::delay(clocks.sysclk().0 / 2);
+    }
+}
+```
+---
 ## ✨ Sobre mim
 
 Sou uma desenvolvedora iniciante, apaixonada por desafios técnicos, que aprende rápido e gosta de sair da zona de conforto. Este projeto é uma forma de mostrar:
