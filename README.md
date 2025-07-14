@@ -102,32 +102,39 @@ Este projeto é um exemplo básico de como fazer o LED da placa piscar.
 ## CÓDIGO PRINCIPAL PISCAR LED:
 
 ```rust
+
 #![no_std]
 #![no_main]
 
 use cortex_m_rt::entry;
-use panic_halt as _;
+use panic_halt as _; // o que fazer em caso de pânico
 use stm32f1xx_hal::{pac, prelude::*};
 
 #[entry]
 fn main() -> ! {
+    // Pega acesso aos periféricos
     let dp = pac::Peripherals::take().unwrap();
 
+    // Inicializa o clock
     let mut flash = dp.FLASH.constrain();
     let mut rcc = dp.RCC.constrain();
 
     let clocks = rcc.cfgr.freeze(&mut flash.acr);
 
+    // Configura o GPIOC para saída (LED conectado geralmente ao PC13 na Blue Pill)
+    let mut gpioa = dp.GPIOA.split(&mut rcc.apb2);
     let mut gpioc = dp.GPIOC.split(&mut rcc.apb2);
+
     let mut led = gpioc.pc13.into_push_pull_output(&mut gpioc.crh);
 
     loop {
-        led.set_low().unwrap();  // Acende o LED (ativo baixo)
-        cortex_m::asm::delay(clocks.sysclk().0 / 2);
-        led.set_high().unwrap(); // Apaga o LED
+        led.set_low().unwrap(); // acende o LED (PC13 é ativo baixo)
+        cortex_m::asm::delay(clocks.sysclk().0 / 2); // espera um tempo
+        led.set_high().unwrap(); // apaga o LED
         cortex_m::asm::delay(clocks.sysclk().0 / 2);
     }
 }
+
 ```
 ---
 ## ✨ Sobre mim
