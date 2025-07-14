@@ -38,9 +38,9 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 | Tecnologia | Descrição |
 |------------|-----------|
 | 🦀 **Rust** | Linguagem moderna, segura e poderosa para sistemas de baixo nível |
-| ⚡ **Arduino UNO/Nano** | Microcontroladores usados nos testes |
+| ⚡ **Arduino ARM/STM32F103C6T6** | Microcontroladores usados nos testes |
 | 🧠 **VS Code / Rust Analyzer** | Ambientes de desenvolvimento |
-| 🔧 **AVR-Rust / Cargo / Probe-rs** | Ferramentas de compilação e upload |
+| 🔧 **ARMR-Rust / Cargo / Probe-rs** | Ferramentas de compilação e upload |
 | 🔍 **Datasheets & referências técnicas** | Estudo direto nos registradores e esquemáticos |
 
 <p align="center">
@@ -55,9 +55,6 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 - [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/ch04-01-what-is-ownership.html/)
 - [Rust para sistemas embarcados (YouTube)](https://www.youtube.com/watch?v=QH10Be79zPA&t=15s)
 - [Rust Embedded Working Group](https://github.com/rust-embedded)
-- [CBF CURSOS ARDUINO](https://www.youtube.com/watch?v=Vuof27YELEI&list=PLx4x_zx8csUgWBTvA-fluHV970SzDJRBw)
-- [CBF CURSOS C++](https://www.youtube.com/watch?v=nUQKr-ey86Y&list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40)
-- [Documentação c++](https://cplusplus.com/doc/tutorial//)
 - [Rust Programming Notebook (recurso complementar)](https://github.com/rust-lang/book)
 
 ---
