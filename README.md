@@ -51,15 +51,14 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 
 ## 📘 Documentação e tutoriais
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
-
 - [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/ch04-01-what-is-ownership.html/)
 - [Rust para sistemas embarcados (YouTube)](https://www.youtube.com/watch?v=QH10Be79zPA&t=15s)
 - [Rust Embedded Working Group](https://github.com/rust-embedded)
 - [Rust Programming Notebook (recurso complementar)](https://github.com/rust-lang/book)
-
 ---
 
 ## 📦 Meu Kit
+- [SOLDAR BARRAS DE PINOS DO ARDUINO ARM: (YouTube)](https://www.youtube.com/shorts/EhAbcc_Fgtc?feature=share)
 
 - [Kit Arduino UNO (Amazon)](https://www.amazon.com.br/dp/B0DB8XP6RS?ref=ppx_yo2ov_dt_b_fed_asin_title)
 - [Placa ARM STM32 "Blue Pill" (Amazon)](https://www.amazon.com.br/dp/B0C3SMXP8H?ref=ppx_yo2ov_dt_b_fed_asin_title)
