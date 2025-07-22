@@ -98,44 +98,9 @@ Este projeto é um exemplo básico de como fazer o LED da placa piscar.
 
 
 ## CÓDIGO PRINCIPAL PISCAR LED:
-
-```rust
-#![no_std]
-#![no_main]
-
-use cortex_m_rt::entry;
-use panic_halt as _;
-
-use stm32f1xx_hal::{delay::Delay, flash::FlashExt, gpio::GpioExt, pac, rcc::RccExt};
-
-use embedded_hal::blocking::delay::DelayMs;
-use embedded_hal::digital::v2::OutputPin;
-
-#[entry]
-fn main() -> ! {
-    let dp = pac::Peripherals::take().unwrap();
-    let cp = pac::CorePeripherals::take().unwrap();
-
-    let mut flash = dp.FLASH.constrain();
-    let mut rcc = dp.RCC.constrain();
-    let clocks = rcc.cfgr.freeze(&mut flash.acr);
-
-    let mut gpioa = dp.GPIOA.split(&mut rcc.apb2);
-    let mut led = gpioa.pa0.into_push_pull_output(&mut gpioa.crl);
-
-    let mut delay = Delay::new(cp.SYST, clocks);
-
-    loop {
-        // Usando os nomes de método corretos.
-        led.set_high().unwrap();
-        delay.delay_ms(500_u16);
-        led.set_low().unwrap();
-        delay.delay_ms(500_u16);
-    }
-}
+<img width="2022" height="1564" alt="code-snapshot" src="https://github.com/user-attachments/assets/e87d9b33-e036-4eba-93d5-4b86f02f5572" />
 
 
-```
 ---
 ## ✨ Sobre mim
 
