@@ -94,42 +94,46 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 # Projeto STM32F103C6T6 em Rust
 
 Este projeto é um exemplo básico de como fazer o LED da placa piscar.
+![arduino](https://github.com/user-attachments/assets/7d62064f-b86c-446b-b7bd-b0b680b6832f)
+
 
 ## CÓDIGO PRINCIPAL PISCAR LED:
 
 ```rust
-
 #![no_std]
 #![no_main]
 
 use cortex_m_rt::entry;
-use panic_halt as _; // o que fazer em caso de pânico
-use stm32f1xx_hal::{pac, prelude::*};
+use panic_halt as _;
+
+use stm32f1xx_hal::{delay::Delay, flash::FlashExt, gpio::GpioExt, pac, rcc::RccExt};
+
+use embedded_hal::blocking::delay::DelayMs;
+use embedded_hal::digital::v2::OutputPin;
 
 #[entry]
 fn main() -> ! {
-    // Pega acesso aos periféricos
     let dp = pac::Peripherals::take().unwrap();
+    let cp = pac::CorePeripherals::take().unwrap();
 
-    // Inicializa o clock
     let mut flash = dp.FLASH.constrain();
     let mut rcc = dp.RCC.constrain();
-
     let clocks = rcc.cfgr.freeze(&mut flash.acr);
 
-    // Configura o GPIOC para saída (LED conectado geralmente ao PC13 na Blue Pill)
     let mut gpioa = dp.GPIOA.split(&mut rcc.apb2);
-    let mut gpioc = dp.GPIOC.split(&mut rcc.apb2);
+    let mut led = gpioa.pa0.into_push_pull_output(&mut gpioa.crl);
 
-    let mut led = gpioc.pc13.into_push_pull_output(&mut gpioc.crh);
+    let mut delay = Delay::new(cp.SYST, clocks);
 
     loop {
-        led.set_low().unwrap(); // acende o LED (PC13 é ativo baixo)
-        cortex_m::asm::delay(clocks.sysclk().0 / 2); // espera um tempo
-        led.set_high().unwrap(); // apaga o LED
-        cortex_m::asm::delay(clocks.sysclk().0 / 2);
+        // Usando os nomes de método corretos.
+        led.set_high().unwrap();
+        delay.delay_ms(500_u16);
+        led.set_low().unwrap();
+        delay.delay_ms(500_u16);
     }
 }
+
 
 ```
 ---
