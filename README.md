@@ -94,11 +94,11 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 # Projeto STM32F103C6T6 em Rust
 
 Este projeto é um exemplo básico de como fazer o LED da placa piscar.
-![arduino](https://github.com/user-attachments/assets/7d62064f-b86c-446b-b7bd-b0b680b6832f)
+![arduino](https://github.com/user-attachments/assets/5e0a507b-3793-4c58-aa76-2813c14a7871)
 
 
 ## CÓDIGO PRINCIPAL PISCAR LED:
-<img width="2022" height="1564" alt="code-snapshot" src="https://github.com/user-attachments/assets/e87d9b33-e036-4eba-93d5-4b86f02f5572" />
+<img width="1056" height="808" alt="Untitled" src="https://github.com/user-attachments/assets/4134f9b1-cd4f-4158-871a-856063b9b772" />
 
 
 ---
