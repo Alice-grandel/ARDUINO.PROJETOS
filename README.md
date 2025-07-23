@@ -111,7 +111,10 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 
 
 Este projeto é um exemplo básico de como fazer o LED da placa piscar.
-![arduino](https://github.com/user-attachments/assets/5e0a507b-3793-4c58-aa76-2813c14a7871)
+![WhatsApp Image 2025-07-22 at 22 23 26](https://github.com/user-attachments/assets/5bb85c53-1d75-46a5-87a7-f8985bace99c)
+
+
+
 
 
 ## CÓDIGO PRINCIPAL PISCAR LED:
