@@ -6,6 +6,10 @@
   <img src="https://img.shields.io/badge/Rust🦀-Low%20Level-orange?style=for-the-badge&logo=rust" />
   <img src="https://img.shields.io/badge/Arduino⚡-Hardware-blue?style=for-the-badge&logo=arduino" />
   <img src="https://img.shields.io/badge/Autodidata📚-Em%20progresso-brightgreen?style=for-the-badge" />
+  <a href="#código-principal-piscar-led">
+  <img src="https://img.shields.io/badge/Ver-Código-9cf?style=for-the-badge&logo=codeforces" alt="Ver Código" />
+
+
 </p>
 
 
@@ -94,6 +98,7 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 
 ---
 # Projeto STM32F103C6T6 em Rust
+
 
 Este projeto é um exemplo básico de como fazer o LED da placa piscar.
 ![arduino](https://github.com/user-attachments/assets/5e0a507b-3793-4c58-aa76-2813c14a7871)
