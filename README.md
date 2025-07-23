@@ -14,6 +14,7 @@
 
 
 <p align="center">
+  
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="100" alt="Arduino Logo"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rustacean-orig-noshadow.svg/320px-Rustacean-orig-noshadow.svg.png" width="150" alt="Rustacean" title="Rust" />
@@ -40,6 +41,15 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 
 ---
 
+## ❓ FAQ
+
+**➡️ Dá pra usar esse projeto com Arduino Uno?**  
+Talvez, mas a arquitetura AVR exige ajustes diferentes. Testado no STM32, O ARM é mais compativel com Rust.
+
+**➡️ Por que aprender arduino com rust e não C/C++?**  
+Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico raro, poucas pessoas exploram rust ainda mais no nivel de arduino, alem disso ela é absolutamente segura, moderna e complexa isso me atrai me desafia de vdd. 🦀
+
+---
 ## 🛠️ Tecnologias e ferramentas
 
 | Tecnologia | Descrição |
