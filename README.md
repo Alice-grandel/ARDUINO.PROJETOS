@@ -1,11 +1,13 @@
-<h1 align="center">🧬🚀 Arduino com Rust — Projeto Experimental</h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&center=true&width=800&lines=🧬+Arduino+com+Rust+—+Projeto+Experimental;Aprendizado+Real+com+Hardware+Real!+💡" alt="🧬🚀 Arduino com Rust — Projeto Experimental" />
+</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Rust🦀-Low%20Level-orange?style=flat-square" />
-  
-  <img src="https://img.shields.io/badge/Arduino⚡-Hardware-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Autodidata📚-Em%20progresso-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Rust🦀-Low%20Level-orange?style=for-the-badge&logo=rust" />
+  <img src="https://img.shields.io/badge/Arduino⚡-Hardware-blue?style=for-the-badge&logo=arduino" />
+  <img src="https://img.shields.io/badge/Autodidata📚-Em%20progresso-brightgreen?style=for-the-badge" />
 </p>
+
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="100" alt="Arduino Logo"/>
