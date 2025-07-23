@@ -47,7 +47,7 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 Talvez, mas a arquitetura AVR exige ajustes diferentes. Testado no STM32, O ARM é mais compativel com Rust.
 
 **➡️ Por que arduino com rust e não C/C++?**  
-Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico raro, poucas pessoas exploram rust ainda mais no nivel de arduino, alem disso ela é absolutamente segura, moderna e complexa isso me atrai me desafia de vdd. 🦀
+Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico raro, poucas pessoas exploram rust ainda mais no nivel de arduino, alem disso ela é absolutamente segura, moderna e bem complexa isso me atrai me desafia de vdd. 🦀
 
 ---
 ## 🛠️ Tecnologias e ferramentas
