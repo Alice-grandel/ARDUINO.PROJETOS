@@ -73,13 +73,13 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 - [Rust para sistemas embarcados (YouTube)](https://www.youtube.com/watch?v=QH10Be79zPA&t=15s)
 - [Rust Embedded Working Group](https://github.com/rust-embedded)
 - [Rust Programming Notebook (recurso complementar)](https://github.com/rust-lang/book)
-- [CONFIGURAR AMBIENTE](https://github.com/Alice-grandel/config-ferrugem-arduino.git)
 ---
 
 ## 📦 Meu Kit
 - [Kit Arduino UNO (Amazon)](https://www.amazon.com.br/dp/B0DB8XP6RS?ref=ppx_yo2ov_dt_b_fed_asin_title)
 - [Placa ARM STM32 "Blue Pill" (Amazon)](https://www.amazon.com.br/dp/B0C3SMXP8H?ref=ppx_yo2ov_dt_b_fed_asin_title)
 - [SOLDAR BARRAS DE PINOS DO ARDUINO ARM: (YouTube)](https://www.youtube.com/shorts/EhAbcc_Fgtc?feature=share)
+- [CONFIGURAR AMBIENTE](https://github.com/Alice-grandel/config-ferrugem-arduino.git)
 
 ---
 
