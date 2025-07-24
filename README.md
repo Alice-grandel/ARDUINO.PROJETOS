@@ -65,6 +65,7 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" height="100" alt="Rust Logo"/>
 </p>
+---
 
 ## 📘 Documentação e tutoriais
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
@@ -72,6 +73,7 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 - [Rust para sistemas embarcados (YouTube)](https://www.youtube.com/watch?v=QH10Be79zPA&t=15s)
 - [Rust Embedded Working Group](https://github.com/rust-embedded)
 - [Rust Programming Notebook (recurso complementar)](https://github.com/rust-lang/book)
+- [CONFIGURAR AMBIENTE](https://github.com/Alice-grandel/config-ferrugem-arduino.git)
 ---
 
 ## 📦 Meu Kit
