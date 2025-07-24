@@ -55,10 +55,10 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 | Tecnologia | Descrição |
 |------------|-----------|
 | 🦀 **Rust** | Linguagem moderna, segura e poderosa para sistemas de baixo nível |
-| ⚡ **Arduino ARM/STM32F103C6T6** | Microcontroladores usados nos testes |
-| 🧠 **VS Code / Rust Analyzer** | Ambientes de desenvolvimento |
-| 🔧 **ARMR-Rust / Cargo / Probe-rs** | Ferramentas de compilação e upload |
-| 🔍 **Datasheets & referências técnicas** | Estudo direto nos registradores e esquemáticos |
+| ⚡ **Arduino /   ARM-STM32F103C6T6**  | Microcontrolador usados nos testes |
+| 👨‍💻 **Ambiente de Desenvolvimento** | (https://code.visualstudio.com/ +   https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) |
+| 🐳 **Containerização** |https://www.docker.com/products/docker-desktop/ |
+| 🧠 **Sistema Operacional: | Windows 10/11 com WSL 2
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="100" alt="Arduino Logo"/>
