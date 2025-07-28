@@ -67,6 +67,10 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 </p>
 ---
 
+## 🛠️ PROJETOS
+- [CARRO ROBO DESEVOLVIDO EM RUST: ](https://github.com/Alice-grandel/CARRO-ROBO.RS)
+---
+
 ## 📘 Documentação e tutoriais
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 - [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/ch04-01-what-is-ownership.html/)
