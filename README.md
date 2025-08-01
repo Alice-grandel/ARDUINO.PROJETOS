@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&center=true&width=800&lines=🧬+Arduino+com+Rust+—+Projeto+Experimental;Aprendizado+Real+com+Hardware+Real!+💡" alt="🧬🚀 Arduino com Rust — Projeto Experimental" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&center=true&width=800&lines=🧬+Arduino+com+Rust+—+Projeto+Experimental;Aprendizado+Real+com+Hardware+Real!+💡" alt="🧬🚀 Arduino — Projeto Experimental" />
 </h1>
 
 <p align="center">
@@ -14,7 +14,8 @@
 
 
 <p align="center">
-  
+  <img width="100" height="2051" alt="ISO_C++_Logo svg" src="https://github.com/user-attachments/assets/fce28b01-dcc8-4f22-acb8-8cdffb4b9799" />
+  <br>
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="100" alt="Arduino Logo"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rustacean-orig-noshadow.svg/320px-Rustacean-orig-noshadow.svg.png" width="150" alt="Rustacean" title="Rust" />
