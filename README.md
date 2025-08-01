@@ -14,7 +14,6 @@
 
 
 <p align="center">
-  <img width="100" height="2051" alt="ISO_C++_Logo svg" src="https://github.com/user-attachments/assets/fce28b01-dcc8-4f22-acb8-8cdffb4b9799" />
   <br>
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="100" alt="Arduino Logo"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
