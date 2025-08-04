@@ -68,8 +68,7 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 
 
 # ARDUINO COM c++: 
-- [ARDUINO COM c++]([https://github.com/Alice-grandel/PROJETO.ARDUINO/blob/c++/README.md](https://github.com/Alice-grandel/ARDUINO.CPP/edit/c%2B%2B/README.md))
-- 
+- [ARDUINO COM c++](https://github.com/Alice-grandel/ARDUINO.CPP/blob/c++/README.md)
 ---
 
 ## 🛠️ PROJETOS
