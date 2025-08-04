@@ -65,8 +65,19 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" height="100" alt="Rust Logo"/>
 </p>
+
+
+# ARDUINO COM c++: 
+- [ARDUINO COM c++]([https://github.com/Alice-grandel/PROJETO.ARDUINO/blob/c++/README.md](https://github.com/Alice-grandel/ARDUINO.CPP/edit/c%2B%2B/README.md))
+- 
 ---
 
+## 🛠️ PROJETOS
+- [CARRO ROBO DESENVOLVIDO EM Rust: ]()
+- [BRAÇO ROBOTICO: ]
+- [ARANHA-ROBO COM SENSOR ULTRASSONICO E CONTROLE REMOTO]
+
+---
 ## 📘 Documentação e tutoriais
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 - [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/ch04-01-what-is-ownership.html/)
