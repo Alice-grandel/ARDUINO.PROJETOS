@@ -73,17 +73,12 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 - [ARANHA-ROBO COM SENSOR ULTRASSONICO E CONTROLE REMOTO]
 
 ---
-## 📄 DATASHEETS QUE USEI NOS MEUS PROJETOS: 
-- [DATASHEET: ARM STM32F303RE](https://www.alldatasheet.com/view.jsp?Searchword=Stm32f303re&gad_source=1&gad_campaignid=177214499&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEbX1Mn0IkUKUwyj5iSw2q5b2eyoH7YsSk8GfO2H3DyOfvaB4N200gkaAs48EALw_wcB)
-- [DATASHEET: ARM STM32F103C8T6](https://octopart.com/pt/datasheet/stm32f103c8t6-stmicroelectronics-41858015?gad_source=1&gad_campaignid=20634819750&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYo5qvyoizYOdY1cNZ4TnfCziriJZhQm8phHwYMTS2ruHMx2L6EfWAaAt3PEALw_wcB)
 
-
-## 📘 Datasheets que usei nos projetos, Documentação e tutoriais
+## 📘 Datasheets, Documentação e tutoriais que usei nos projetos:
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 - [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/ch04-01-what-is-ownership.html/)
 - [DATASHEET: ARM STM32F303RE](https://www.alldatasheet.com/view.jsp?Searchword=Stm32f303re&gad_source=1&gad_campaignid=177214499&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEbX1Mn0IkUKUwyj5iSw2q5b2eyoH7YsSk8GfO2H3DyOfvaB4N200gkaAs48EALw_wcB)
 - [DATASHEET: ARM STM32F103C8T6](https://octopart.com/pt/datasheet/stm32f103c8t6-stmicroelectronics-41858015?gad_source=1&gad_campaignid=20634819750&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYo5qvyoizYOdY1cNZ4TnfCziriJZhQm8phHwYMTS2ruHMx2L6EfWAaAt3PEALw_wcB)
-
 ---
 
 ## 📦 Meu Kit
