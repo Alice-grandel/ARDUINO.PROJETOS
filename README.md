@@ -67,32 +67,29 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 </p>
 
 
-# ARDUINO COM c++: 
-- [ARDUINO COM c++](https://github.com/Alice-grandel/ARDUINO.CPP/blob/c++/README.md)
----
-
-## 🛠️ PROJETOS
+## 🛠️ Projetos:
 - [CARRO ROBO DESENVOLVIDO EM Rust: ]()
 - [BRAÇO ROBOTICO: ]
 - [ARANHA-ROBO COM SENSOR ULTRASSONICO E CONTROLE REMOTO]
 
 ---
-## DATASHEETS QUE USEI NOS MEUS PROJETOS: 
-- [DATASHEET: ARM STM32F303RE](file:///C:/Users/User/Downloads/STM32F303RD-1.PDF)
-- [DATASHEET: ARM STM32F103C8T6](file:///C:/Users/User/Downloads/STM32F103C8T6.pdf)
+## 📄 DATASHEETS QUE USEI NOS MEUS PROJETOS: 
+- [DATASHEET: ARM STM32F303RE](https://www.alldatasheet.com/view.jsp?Searchword=Stm32f303re&gad_source=1&gad_campaignid=177214499&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEbX1Mn0IkUKUwyj5iSw2q5b2eyoH7YsSk8GfO2H3DyOfvaB4N200gkaAs48EALw_wcB)
+- [DATASHEET: ARM STM32F103C8T6](https://octopart.com/pt/datasheet/stm32f103c8t6-stmicroelectronics-41858015?gad_source=1&gad_campaignid=20634819750&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYo5qvyoizYOdY1cNZ4TnfCziriJZhQm8phHwYMTS2ruHMx2L6EfWAaAt3PEALw_wcB)
 
 
-## 📘 Documentação e tutoriais
+## 📘 Datasheets que usei nos projetos, Documentação e tutoriais
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 - [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/ch04-01-what-is-ownership.html/)
-- [Rust para sistemas embarcados (YouTube)](https://www.youtube.com/watch?v=QH10Be79zPA&t=15s)
-- [Rust Embedded Working Group](https://github.com/rust-embedded)
-- [Rust Programming Notebook (recurso complementar)](https://github.com/rust-lang/book)
+- [DATASHEET: ARM STM32F303RE](https://www.alldatasheet.com/view.jsp?Searchword=Stm32f303re&gad_source=1&gad_campaignid=177214499&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEbX1Mn0IkUKUwyj5iSw2q5b2eyoH7YsSk8GfO2H3DyOfvaB4N200gkaAs48EALw_wcB)
+- [DATASHEET: ARM STM32F103C8T6](https://octopart.com/pt/datasheet/stm32f103c8t6-stmicroelectronics-41858015?gad_source=1&gad_campaignid=20634819750&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYo5qvyoizYOdY1cNZ4TnfCziriJZhQm8phHwYMTS2ruHMx2L6EfWAaAt3PEALw_wcB)
+
 ---
 
 ## 📦 Meu Kit
 - [Kit Arduino UNO (Amazon)](https://www.amazon.com.br/dp/B0DB8XP6RS?ref=ppx_yo2ov_dt_b_fed_asin_title)
-- [Placa ARM STM32 "Blue Pill" (Amazon)](https://www.amazon.com.br/dp/B0C3SMXP8H?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- [Placa ARM STM32f30re (Amazon)](https://www.amazon.com.br/dp/B01N6EKDEF?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- [Placa ARM STM32 (mercado-livre)](https://produto.mercadolivre.com.br/MLB-777789737-stm32f103c8t6-arm-stm32-microcontrolador-_JM)
 - [SOLDAR BARRAS DE PINOS DO ARDUINO ARM: (YouTube)](https://www.youtube.com/shorts/EhAbcc_Fgtc?feature=share)
 - [CONFIGURAR AMBIENTE](https://github.com/Alice-grandel/config-ferrugem-arduino.git)
 
