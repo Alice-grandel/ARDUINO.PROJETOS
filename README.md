@@ -77,6 +77,11 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 - [ARANHA-ROBO COM SENSOR ULTRASSONICO E CONTROLE REMOTO]
 
 ---
+## DATASHEETS QUE USEI NOS MEUS PROJETOS: 
+- [DATASHEET: ARM STM32F303RE](file:///C:/Users/User/Downloads/STM32F303RD-1.PDF)
+- [DATASHEET: ARM STM32F103C8T6](file:///C:/Users/User/Downloads/STM32F103C8T6.pdf)
+
+
 ## 📘 Documentação e tutoriais
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 - [Documentação oficial rust](https://rust-br.github.io/rust-book-pt-br/ch04-01-what-is-ownership.html/)
