@@ -83,7 +83,7 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 
 ## 📦 Meu Kit
 - [Kit Arduino UNO (Amazon)](https://www.amazon.com.br/dp/B0DB8XP6RS?ref=ppx_yo2ov_dt_b_fed_asin_title)
-- [Placa ARM STM32f30re (Amazon)](https://www.amazon.com.br/dp/B01N6EKDEF?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- [Placa ARM STM32f303re (Amazon)](https://www.amazon.com.br/dp/B01N6EKDEF?ref=ppx_yo2ov_dt_b_fed_asin_title)
 - [Placa ARM STM32 (mercado-livre)](https://produto.mercadolivre.com.br/MLB-777789737-stm32f103c8t6-arm-stm32-microcontrolador-_JM)
 - [SOLDAR BARRAS DE PINOS DO ARDUINO ARM: (YouTube)](https://www.youtube.com/shorts/EhAbcc_Fgtc?feature=share)
 - [CONFIGURAR AMBIENTE](https://github.com/Alice-grandel/config-ferrugem-arduino.git)
