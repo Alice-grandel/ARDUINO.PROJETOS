@@ -69,7 +69,7 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 
 ## 🛠️ Projetos:
 - [CARRO ROBO DESENVOLVIDO EM Rust: ]()
-- [BRAÇO ROBOTICO: ]
+- [BRAÇO ROBOTICO: ](https://github.com/Alice-grandel/BRA-O-O-ROBOTICO/blob/c++/README.md)
 - [ARANHA-ROBO COM SENSOR ULTRASSONICO E CONTROLE REMOTO]
 
 ---
