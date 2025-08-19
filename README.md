@@ -58,7 +58,7 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 | ⚡ **Arduino /   ARM-STM32F303RE **  | Microcontrolador usados nos testes |
 | 👨‍💻 **Ambiente de Desenvolvimento** | (https://code.visualstudio.com/ +   https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) |
 | 🐳 **Containerização** |https://www.docker.com/products/docker-desktop/ |
-| 🧠 **Sistema Operacional: | Windows 10/11
+| 🧠 **Sistema Operacional: | arch-linux
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="100" alt="Arduino Logo"/>
