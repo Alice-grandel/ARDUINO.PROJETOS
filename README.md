@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&center=true&width=800&lines=🧬+Arduino+com+Rust+—+Projeto+Experimental;Aprendizado+Real+com+Hardware+Real!+💡" alt="🧬🚀 Arduino — Projeto Experimental" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&center=true&width=800&lines=🧬+Arduino+com+Rust+—+Projeto+Experimental;Aprendizado+Real+com+Hardware+Real!+💡" alt="🧬🚀 R U S T_EMBEDDED — Projeto Experimental" />
 </h1>
 
 <p align="center">
@@ -116,11 +116,11 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 - 🧪 Testes com atuadores e pequenos módulos
 
 ---
-# Projeto STM32F103C6T6 em Rust
+# Projeto STM32F303re em Rust
 
 
 Este projeto é um exemplo básico de como fazer o LED da placa piscar.
-![WhatsApp Image 2025-07-22 at 22 29 30](https://github.com/user-attachments/assets/7a901a39-dd52-4006-b7e7-3546651dcad5)
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/1cb4e8d6-67ff-4dde-a72d-e7d509c16c77" />
 
 
 
