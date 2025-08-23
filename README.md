@@ -47,7 +47,7 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 Talvez, mas a arquitetura AVR exige ajustes diferentes. Testado no STM32, O ARM é mais compativel com Rust.
 
 **➡️ Por que começar embarcados e logo com rust e não C/C++ que é o padrão de mercado a anos é mais maduro e ainda tem mais conteudo mais conteudo disponivel online pra qualquer iniciante?**  
-Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico raro, poucas pessoas no mundo hj exploram rust ainda mais nivel embarcados bare-metal, ela é segura, moderna e bem complexa ainda sim é uma alternativa bem melhor doq o c++ pra começar, ela me atrai me desafia de vdd. 🦀
+Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico raro, poucas pessoas no mundo hj exploram rust ainda mais nivel embarcados bare-metal que é mais raro ainda, ela é segura, moderna e bem complexa, tem uma sintaxe gostosa e é uma alternativa bem melhor doq c++ pra começar, ela me atrai me desafia de vdd. 🦀
 
 ---
 ## 🛠️ Tecnologias e ferramentas
