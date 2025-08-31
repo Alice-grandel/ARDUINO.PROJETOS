@@ -70,7 +70,7 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 ## 🛠️ Projetos:
 - [CARRO ROBO DESENVOLVIDO EM Rust:]
 - [BRAÇO ROBOTICO COM CIRCUITO E FONTE CHAVEADA: ](https://github.com/Alice-grandel/Garra-robotica/blob/Rs/README.md)
-- [SISTEMA OPERACIONAL NA RASPBARRY PI ZERO 2W + SERVIDOR - DESENVOLVIMENTO RUST]
+- [SISTEMA OPERACIONAL NA RASPBARRY PI ZERO 2W + SERVIDOR - DESENVOLVIMENTO RUST](https://github.com/Alice-grandel/SISTEMA-OPERECIONAL-RASPBARRY.RS)
 - [ARANHA-ROBO COM SENSOR ULTRASSONICO E CONTROLE REMOTO]
 
 ---
