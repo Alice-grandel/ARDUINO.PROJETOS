@@ -43,11 +43,24 @@ Este repositório é uma coleção dos meus experimentos usando **Rust** com **A
 
 ## ❓ FAQ
 
-**➡️ Dá pra usar esse projeto com Arduino Uno?**  
-Talvez, mas a arquitetura AVR exige ajustes diferentes. Testado no STM32, O ARM é mais compativel com Rust.
+**➡️ Dá para usar este projeto com Arduino Uno?
 
-**➡️ Por que começar embarcados com rust e não C/C++ que é o padrão de mercado a anos é mais maduro e ainda tem mais conteudo mais conteudo disponivel online pra qualquer iniciante?**  <br>
-Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico raro, poucas pessoas no mundo hj exploram rust ainda mais nivel embarcados bare-metal que é mais raro ainda, ela é segura, moderna e bem complexa, tem uma sintaxe gostosa e é uma alternativa bem melhor doq c++ pra começar, ela me atrai me desafia de vdd. 🦀
+Em teoria, **sim**, mas **não é recomendado**.  
+O **Arduino Uno** utiliza a arquitetura **AVR (8 bits)**, que tem suporte limitado e menos ativo dentro do ecossistema Rust. Isso significa que você precisaria de ajustes específicos, e muitas bibliotecas modernas não funcionam bem nesse ambiente.
+
+👉 Se o objetivo é aprender Rust embarcado de forma prática e escalável, prefira **MCUs baseadas em ARM** ou **Xtensa (ESP)**:
+
+- **STM32** → Excelente para aprendizado bare-metal e projetos industriais  
+- **Raspberry Pi** → Ótima comunidade, documentação extensa e custo acessível  
+- **ESP32** → Talvez a **melhor opção quem quer começar**, pois possui suporte mais próximo do `std` e `main` diferente do stm32, alem do **Wi-Fi e Bluetooth integrados** ela tem bibliotecas prontas para rede
+
+⚡ **Resumo:**  
+Não use **AVR (Arduino Uno)** apenas se quiser experimentar por curiosidade.  
+Para projetos sérios em Rust, escolha sempre **ARM (STM32, Raspberry pi)** ou **ESP32**, que oferecem muito mais compatibilidade e recursos.
+
+
+**➡️ Por que você começou embarcados com rust e não C/C++ que é o padrão de mercado a anos e ainda tem mais conteudo mais conteudo disponivel online pra qualquer iniciante?**  <br>
+Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico raro, poucas pessoas no mundo hj exploram rust ainda mais nivel embarcados bare-metal, ela é segura, moderna e bem complexa, tem uma sintaxe gostosa e é uma alternativa bem melhor doq c++ pra começar, ela me atrai me desafia de vdd. 🦀
 
 ---
 ## 🛠️ Tecnologias e ferramentas
