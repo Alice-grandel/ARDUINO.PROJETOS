@@ -59,6 +59,7 @@ Não use **AVR (Arduino Uno)** apenas se quiser experimentar por curiosidade.
 Para projetos sérios em Rust, escolha sempre **ARM (STM32, Raspberry pi)** ou **ESP32**, que oferecem muito mais compatibilidade e recursos.
 
 
+
 **➡️ Por que você começou embarcados com rust e não C/C++ que é o padrão de mercado a anos e ainda tem mais conteudo mais conteudo disponivel online pra qualquer iniciante?**  <br>
 Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico raro, poucas pessoas no mundo hj exploram rust ainda mais nivel embarcados bare-metal, ela é segura, moderna e bem complexa, tem uma sintaxe gostosa e é uma alternativa bem melhor doq c++ pra começar, ela me atrai me desafia de vdd. 🦀
 
