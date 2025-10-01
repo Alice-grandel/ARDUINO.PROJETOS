@@ -68,10 +68,10 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 | Tecnologia | Descrição |
 |------------|-----------|
 | 🦀 **Rust** | Linguagem moderna, segura e poderosa para sistemas de baixo nível |
-| ⚡ **Arduino /   ARM-STM32F303RE **  | Microcontrolador usados nos testes |
+| ⚡ **Esp32 /   ARM-STM32F303RE / RASPBERRY PI**  | Microcontroladores usados nos testes |
 | 👨‍💻 **Ambiente de Desenvolvimento** | (https://code.visualstudio.com/ +   https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) |
 | 🐳 **Containerização** |https://www.docker.com/products/docker-desktop/ |
-| 🧠 **Sistema Operacional: | arch-linux
+| 🧠 **Sistemas Operacionais: | arch-linux e kali-linux
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" height="100" alt="Arduino Logo"/>
@@ -82,8 +82,8 @@ Porque eu amo rust, só tenho mais preferencia msm é um conhecimento tecnico ra
 
 ## 🛠️ Projetos:
 - [CARRO ROBO DESENVOLVIDO EM Rust:]
-- [BRAÇO ROBOTICO COM CIRCUITO E FONTE CHAVEADA: ](https://github.com/Alice-grandel/Garra-robotica/blob/Rs/README.md)
-- [SISTEMA OPERACIONAL NA RASPBARRY PI ZERO 2W + SERVIDOR - DESENVOLVIMENTO RUST](https://github.com/Alice-grandel/SISTEMA-OPERECIONAL-RASPBARRY.RS)
+- [BRAÇO ROBOTICO: ](https://github.com/Alice-grandel/Garra-robotica)
+- [SERVIDOR DESENVOLVIMENTO EM RUST]([https://github.com/Alice-grandel/SISTEMA-OPERECIONAL-RASPBARRY.RS](https://github.com/Alice-grandel/SERVIDOR))
 - [ARANHA-ROBO COM SENSOR ULTRASSONICO E CONTROLE REMOTO]
 
 ---
